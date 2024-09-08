@@ -184,7 +184,7 @@ body {
   width: 8.9%;
   height: 77%;
   border-radius: 100%;
-  outline-style: solid;
+  outline-style: none;
   margin-right: 8%;
   list-style-type: none;
 }
@@ -284,6 +284,7 @@ body {
   }
   .grid-profile .box-images {
     width: 80%;
+    height: 85%;
   }
   /*Welcome Section*/
   .grid-welcome {
@@ -318,7 +319,7 @@ body {
     margin: 0;
   }
   #btn-contact p {
-    font-size: 20px;
+    font-size: 15px;
   }
   /*Resume Section*/
   .grid-portfolio {

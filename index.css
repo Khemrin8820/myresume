@@ -147,7 +147,7 @@ body {
   border-radius: 50px;
   background-color: rgba(83, 190, 178, 1);
   border-style: none;
-  margin: 15px 0 0 0px;
+  margin: 15px 0 0 165px;
   cursor: pointer;
 }
 #btn-contact #img-contact {
@@ -181,7 +181,7 @@ body {
   height: 77%;
   border-radius: 100%;
   margin-right: 8%;
-  outline-style: solid;
+  outline-style: none;
   outline-color: rgb(47, 255, 0);
 }
 .more-contact .img-more-logo:hover {
@@ -242,6 +242,7 @@ body {
   }
   .grid-profile .box-images {
     width: 80%;
+    height: 85%;
   }
   /*Welcome Section*/
   .grid-welcome {
@@ -276,7 +277,7 @@ body {
     margin: 0;
   }
   #btn-contact p {
-    font-size: 20px;
+    font-size: 15px;
   }
   /*About Me Section*/
   .grid-about-me {
