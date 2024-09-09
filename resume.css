@@ -98,11 +98,13 @@ body {
   border-color: black;
   text-decoration: none;
   color: rgba(83, 190, 178, 1);
+  transition: 100ms ease-in-out;
 }
 .nav-bar-rec:hover {
   background-color: rgba(151, 151, 151, 0.7);
   cursor: pointer;
   color: rgb(255, 255, 255);
+  scale: 1.1;
 }
 .nav-resume {
   background-color: rgba(151, 151, 151, 0.7);
@@ -131,11 +133,13 @@ body {
   font-family: "Inter", sans-serif;
   font-size: 45px;
   color: rgba(83, 190, 178, 1);
+  margin: 15px 0 0 55px;
 }
 .grid-name .name-box p {
   color: rgba(83, 190, 178, 1);
   font-family: "Crete Round", serif;
   font-size: 25px;
+  margin: 15px 0 0 55px;
 }
 
 /*Button Contact Section*/
@@ -145,8 +149,14 @@ body {
   border-radius: 50px;
   background-color: rgba(83, 190, 178, 1);
   border-style: none;
-  margin: 15px 0 0 165px;
+  margin: 15px 0 0 210px;
   cursor: pointer;
+  transition: 100ms ease-in-out;
+  opacity: 0.6;
+}
+#btn-contact:hover {
+  scale: 1.1;
+  opacity: 0.9;
 }
 #btn-contact a {
   text-decoration: none;
@@ -169,7 +179,8 @@ body {
 .grid-more-contact h2 {
   color: rgba(83, 190, 178, 1);
   font-family: "Inter", sans-serif;
-  margin: 5px 0 0 165px;
+  margin: 5px 0 0 245px;
+  font-size: 35px;
 }
 .more-contact {
   width: 100%;
@@ -187,9 +198,13 @@ body {
   outline-style: none;
   margin-right: 8%;
   list-style-type: none;
+  opacity: 0.7;
 }
 .more-contact .img-more-logo:hover {
   cursor: pointer;
+  cursor: pointer;
+  scale: 1.1;
+  opacity: 1;
 }
 .more-contact .img-more-logo img {
   width: 100%;
@@ -297,9 +312,11 @@ body {
   }
   .grid-name .name-box h1 {
     font-size: 25px;
+    margin: 0;
   }
   .grid-name .name-box p {
     font-size: 23px;
+    margin: 0;
   }
   /*Contact Section*/
   .grid-contact {
