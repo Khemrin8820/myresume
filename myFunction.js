@@ -60,7 +60,7 @@ const resumeList = {
           - Resolve Problems for Merchants.<br>
         <p id="experiences">
           <span>Product Catalog Officer Wingmall App at Wing Bank<br>
-            (Aug 2023 - Aug 2024)</span><br>
+            (Jul 2023 - Aug 2024)</span><br>
           - Create Stores & Menus on Wingmall.<br>
           - Add Promotion Merchants on Wingmall.<br>
           - Create Stores and menus for Merchants.<br>
