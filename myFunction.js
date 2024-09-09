@@ -111,29 +111,34 @@ $('.resume-desc li').click(function (e) {
   }
 });
 
-/*Resume Section*/
+/*Portfolio Section*/
 const portfolioList = [
   {
     "projectName": "Project1",
-    "image": "./projects/11-Honda CBR 500R 2019.jpg",
+    "image": "./projects/Project1.png",
     "title": "Add Items to Dashboard"
   },
   {
     "projectName": "Project1",
-    "image": "./projects/11-Honda CBR 500R 2019.jpg",
+    "image": "./projects/fectchdata.png",
     "title": "Fetch Data from Back End"
   },
   {
     "projectName": "Project1",
-    "image": "./projects/11-Honda CBR 500R 2019.jpg",
-    "title": "Responsive Website"
+    "image": "./projects/User Interface.png",
+    "title": "User Interface"
   },
 ];
+const projectVideoList = {
+  video1: `<video src="./projects/Add Items.mp4" controls></video>`,
+  video2: `<video src="./projects/Fetch Data From Backend.mp4" controls></video>`,
+  video3: `<video src="./projects/Interface.mp4" controls></video>`,
+}
 projectList();
 function projectList() {
   let txt = "";
-  portfolioList.forEach((e) => {
-    txt += `<li>
+  portfolioList.forEach((e,i) => {
+    txt += `<li data-idd="${i}">
             <img src="${e['image']}" alt="${e['projectName']}">
             <p>${e['title']}</p>
           </li>`;
@@ -141,4 +146,18 @@ function projectList() {
   $('.portfolio-project').html(txt);
 }
 
-  
+$('.portfolio-project li').click(function () {
+  if ($(this).data('idd') === 0) {
+    $('.projects-video').fadeIn();
+    $('.projects-video .videos-list').html(projectVideoList.video1);
+  } else if($(this).data('idd')===1) {
+    $('.projects-video').fadeIn();
+    $('.projects-video .videos-list').html(projectVideoList.video2);
+  } else {
+    $('.projects-video').fadeIn();
+    $('.projects-video .videos-list').html(projectVideoList.video3);
+  }
+});
+$('.projects-video #btn-close').click(function () {
+  $('.projects-video').fadeOut();
+});
