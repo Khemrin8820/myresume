@@ -115,9 +115,9 @@ const portfolioList = [
   },
 ];
 const projectVideoList = {
-  video1: `<video src="./projects/Add Items.mp4" controls></video>`,
-  video2: `<video src="./projects/Fetch Data From Backend.mp4" controls></video>`,
-  video3: `<video src="./projects/Interface.mp4" controls></video>`,
+  video1: `<video src="./projects/Add Items.mp4" controls autoplay></video>`,
+  video2: `<video src="./projects/Fetch Data From Backend.mp4" controls autoplay></video>`,
+  video3: `<video src="./projects/Interface.mp4" controls autoplay></video>`,
 }
 projectList();
 function projectList() {
