@@ -58,24 +58,9 @@ const resumeList = {
           - Resolve Problems for Customers.<br>
           - Resolve Problems for Deliverys.<br>
           - Resolve Problems for Merchants.<br>
-          <span>Data Entry at Wing Bank<br>
-            (Sep 2020 - Dec 2021)</span><br>
-          - Create Menus on Wingmall Shopping
-          Portal.<br>
-          - Add Promotion Merchant on Wingmall
-          Portal.<br>
-          - Create Menus on Wingmall Shopping
-          Portal.<br>
-        </p>
         <p id="experiences">
-          - Add Promotion Merchant on Wingmall
-          Portal.<br>
-          - Create Stores Menu & Update Prices on
-          Wingmall Portal.<br>
-          - Daily Report<br>
-          - Create a Banner for the Promotion<br>
           <span>Product Catalog Officer Wingmall App at Wing Bank<br>
-            (Jan 2022 - Apr 2024)</span><br>
+            (Aug 2023 - Aug 2024)</span><br>
           - Create Stores & Menus on Wingmall.<br>
           - Add Promotion Merchants on Wingmall.<br>
           - Create Stores and menus for Merchants.<br>
