@@ -252,8 +252,8 @@ body {
   left: 5px;
 }
 #experiences {
-  font-size: 15px;
-  line-height: 25px;
+  font-size: 25px;
+  line-height: 35px;
 }
 /*Responsive for Mobile*/
 @media (max-width: 768px) {
