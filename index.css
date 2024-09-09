@@ -98,11 +98,13 @@ body {
   border-color: black;
   text-decoration: none;
   color: rgba(83, 190, 178, 1);
+  transition: 100ms ease-in-out;
 }
 .nav-bar-rec:hover {
   background-color: rgba(151, 151, 151, 0.7);
   cursor: pointer;
   color: rgb(255, 255, 255);
+  scale: 1.1;
 }
 .nav-home {
   background-color: rgba(151, 151, 151, 0.7);
