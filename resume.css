@@ -239,13 +239,12 @@ body {
   box-shadow: 0 5px 9px rgba(30, 255, 229, 0.507);
 }
 #skills {
-  font-size: 18px;
-  line-height: 30px;
-  margin-right: 30px;
+  font-size: 25px;
+  line-height: 35px;
+  margin-right: 55px;
 }
 .resume-body {
   display: flex;
-  justify-content: space-around;
   position: relative;
 }
 #lang {
