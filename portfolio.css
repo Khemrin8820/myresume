@@ -181,7 +181,7 @@ body {
 .grid-more-contact h2 {
   color: rgba(83, 190, 178, 1);
   font-family: "Inter", sans-serif;
-  margin: 5px 0 0 245px;
+  margin: 5px 0 0 135px;
   font-size: 35px;
 }
 .more-contact {
@@ -194,8 +194,8 @@ body {
   margin-top: 3%;
 }
 .more-contact .img-more-logo {
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   margin-right: 8%;
   outline-style: solid;
