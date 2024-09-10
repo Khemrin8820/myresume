@@ -58,11 +58,11 @@ body {
 }
 
 /*Profile Section*/
-/* .grid-profile .box-images {
+.grid-profile .box-images {
   animation-name: spin;
   animation-duration: 3s;
   animation-timing-function: linear;
-} */
+}
 .grid-profile .box-images {
   width: 300px;
   height: 300px;
@@ -72,7 +72,7 @@ body {
   justify-content: center;
   align-items: center;
 }
-/* @keyframes spin {
+@keyframes spin {
   0% {
   }
   50% {
@@ -82,7 +82,7 @@ body {
   100% {
     transform: rotatey(360deg);
   }
-} */
+}
 #profile {
   width: 93%;
   height: 93%;
