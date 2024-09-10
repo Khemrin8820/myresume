@@ -111,7 +111,7 @@ body {
   align-items: center;
   border-width: 1%;
   border-style: solid;
-  border-color: black;
+  border-color: rgba(245, 253, 15, 0.486);
   text-decoration: none;
   color: rgba(83, 190, 178, 1);
   transition: 100ms ease-in-out;
@@ -121,6 +121,7 @@ body {
   cursor: pointer;
   color: rgb(255, 255, 255);
   scale: 1.1;
+  border-color: rgb(245, 253, 15);
 }
 .nav-home {
   background-color: rgba(151, 151, 151, 0.7);

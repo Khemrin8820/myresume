@@ -99,12 +99,14 @@ body {
   text-decoration: none;
   color: rgba(83, 190, 178, 1);
   transition: 100ms ease-in-out;
+  border-color: rgba(245, 253, 15, 0.486);
 }
 .nav-bar-rec:hover {
   background-color: rgba(151, 151, 151, 0.7);
   cursor: pointer;
   color: rgb(255, 255, 255);
   scale: 1.1;
+  border-color: rgb(245, 253, 15);
 }
 .nav-port {
   background-color: rgba(151, 151, 151, 0.7);
@@ -242,32 +244,35 @@ body {
 }
 .portfolio-body i {
   font-size: 60px;
-  color: rgba(83, 190, 178, 1);
+  color: rgb(8, 132, 117);
 }
 .portfolio-body i:hover {
   cursor: pointer;
 }
 .portfolio-project {
-  width: 90.5%;
-  height: 86%;
+  width: 100%;
+  height: 88%;
   position: absolute;
   top: 20px;
-  left: 38px;
   list-style-type: none;
   /*Will Deleted*/
   display: flex;
   flex-wrap: wrap;
   row-gap: 1%;
   justify-content: space-between;
+  padding: 10px 10px;
+  box-shadow: 0 0 9px grey;
+  border-radius: 30px;
+  overflow: hidden;
 }
 .portfolio-project li {
   width: 32.5%;
   height: 48%;
   cursor: pointer;
   box-shadow: 0 0 10px rgba(128, 128, 128, 0.432);
-  border-radius: 10px 10px 10px 10px;
-  overflow: hidden;
   transition: 0.3s;
+  border-radius: 30px 30px 0 0;
+  overflow: hidden;
 }
 .portfolio-project li:hover {
   transform: scale(1.1);
@@ -281,6 +286,7 @@ body {
   width: 100%;
   height: 19.5%;
   margin: 0;
+  font-family: "inter", serif;
   padding-left: 5px;
   color: rgba(243, 243, 243, 1);
   font-size: 16px;
@@ -397,11 +403,10 @@ body {
   }
   .portfolio-project {
     top: 10px;
-    left: 25px;
   }
   .portfolio-project li {
     width: 32.5%;
-    height: 90%;
+    height: 48%;
   }
   .portfolio-project li img {
     width: 100%;
@@ -411,8 +416,6 @@ body {
   .portfolio-project li p {
     height: 35%;
     font-size: 15px;
-    display: block;
-    line-height: 20px;
   }
   /*More Contact Section*/
   .grid-more-contact {
