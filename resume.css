@@ -59,8 +59,8 @@ body {
 
 /*Profile Section*/
 .grid-profile .box-images {
-  width: 300px;
-  height: 300px;
+  width: 250px;
+  height: 250px;
   border-radius: 50%;
   background-color: rgba(142, 142, 142, 0.3);
   display: flex;
