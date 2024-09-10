@@ -129,13 +129,13 @@ body {
 
 /*Name Section*/
 .grid-name {
-  margin: 15px 0 0 165px;
+  margin: 0 0 0 125px;
 }
 .grid-name .name-box h1 {
   font-family: "Inter", sans-serif;
   font-size: 45px;
   color: rgba(83, 190, 178, 1);
-  margin: 15px 0 0 55px;
+  margin: 10px 0 0 55px;
 }
 .grid-name .name-box p {
   color: rgba(83, 190, 178, 1);
@@ -151,7 +151,7 @@ body {
   border-radius: 50px;
   background-color: rgba(83, 190, 178, 1);
   border-style: none;
-  margin: 15px 0 0 210px;
+  margin: 15px 0 0 175px;
   cursor: pointer;
   transition: 100ms ease-in-out;
   opacity: 0.6;
