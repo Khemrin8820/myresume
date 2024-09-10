@@ -204,17 +204,19 @@ body {
   margin-top: 3%;
 }
 .more-contact .img-more-logo {
-  width: 8.9%;
-  height: 77%;
-  border-radius: 100%;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
   margin-right: 8%;
-  outline-style: none;
+  outline-style: solid;
+  outline-color: rgba(245, 253, 15, 0.7);
   opacity: 0.7;
 }
 .more-contact .img-more-logo:hover {
   cursor: pointer;
   scale: 1.1;
   opacity: 1;
+  outline-color: rgba(245, 253, 15);
 }
 .more-contact .img-more-logo img {
   width: 100%;
