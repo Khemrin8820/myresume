@@ -201,6 +201,21 @@ body {
   outline-style: solid;
   outline-color: rgba(245, 253, 15, 0.7);
   opacity: 0.7;
+  animation-name: upDownLoop;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+@keyframes upDownLoop {
+  0% {
+    transform: translatex(0px);
+  }
+  50% {
+    transform: translatex(10px);
+  }
+  100% {
+    transform: translatex(0px);
+  }
 }
 .more-contact .img-more-logo:hover {
   cursor: pointer;
