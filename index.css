@@ -58,11 +58,7 @@ body {
 }
 
 /*Profile Section*/
-.grid-profile .box-images {
-  animation-name: spin;
-  animation-duration: 3s;
-  animation-timing-function: linear;
-}
+
 .grid-profile .box-images {
   width: 300px;
   height: 300px;
@@ -72,17 +68,7 @@ body {
   justify-content: center;
   align-items: center;
 }
-@keyframes spin {
-  0% {
-  }
-  50% {
-    transform: rotate(0);
-    scale: 1.2;
-  }
-  100% {
-    transform: rotatey(360deg);
-  }
-}
+
 #profile {
   width: 93%;
   height: 93%;
@@ -170,7 +156,7 @@ body {
   border-style: none;
   margin: 15px 0 0 210px;
   cursor: pointer;
-  transition: 100ms ease-in-out;
+  transition: 300ms linear;
   opacity: 0.6;
 }
 #btn-contact:hover {
@@ -192,7 +178,7 @@ body {
 .grid-more-contact h2 {
   color: rgba(83, 190, 178, 1);
   font-family: "Inter", sans-serif;
-  margin: 5px 0 0 245px;
+  margin: 5px 0 0 220px;
   font-size: 35px;
 }
 .more-contact {
@@ -212,6 +198,21 @@ body {
   outline-style: solid;
   outline-color: rgba(245, 253, 15, 0.7);
   opacity: 0.7;
+  animation-name: upDownLoop;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+@keyframes upDownLoop {
+  0% {
+    transform: translatex(0px);
+  }
+  50% {
+    transform: translatex(10px);
+  }
+  100% {
+    transform: translatex(0px);
+  }
 }
 .more-contact .img-more-logo:hover {
   cursor: pointer;
