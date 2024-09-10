@@ -192,20 +192,19 @@ body {
   margin-top: 3%;
 }
 .more-contact .img-more-logo {
-  width: 8.9%;
-  height: 77%;
-  border-radius: 100%;
-  margin-right: 2%;
-  outline-style: none;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
   margin-right: 8%;
-  list-style-type: none;
+  outline-style: solid;
+  outline-color: rgba(245, 253, 15, 0.7);
   opacity: 0.7;
 }
 .more-contact .img-more-logo:hover {
   cursor: pointer;
-  cursor: pointer;
   scale: 1.1;
   opacity: 1;
+  outline-color: rgba(245, 253, 15);
 }
 .more-contact .img-more-logo img {
   width: 100%;
@@ -433,8 +432,8 @@ body {
     margin-left: 15px;
   }
   .more-contact .img-more-logo {
-    width: 10%;
-    height: 60%;
+    width: 50px;
+    height: 50px;
     border-radius: 100%;
     margin-right: 2%;
     margin-right: 8%;
