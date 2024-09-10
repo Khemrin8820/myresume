@@ -270,8 +270,8 @@ body {
     grid-row: 2/3;
   }
   .grid-profile .box-images {
-    width: 80%;
-    height: 85%;
+    width: 200px;
+    height: 200px;
   }
   /*Welcome Section*/
   .grid-welcome {
