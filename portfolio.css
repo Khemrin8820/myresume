@@ -350,8 +350,8 @@ body {
     grid-row: 2/3;
   }
   .grid-profile .box-images {
-    width: 80%;
-    height: 85%;
+    width: 150px;
+    height: 150px;
   }
   /*Welcome Section*/
   .grid-welcome {
