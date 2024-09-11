@@ -192,6 +192,7 @@ body {
   display: flex;
   margin-left: 15%;
   margin-top: 3%;
+  list-style-type: none;
 }
 .more-contact .img-more-logo {
   width: 50px;
