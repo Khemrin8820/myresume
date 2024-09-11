@@ -41,7 +41,7 @@ const resumeList = {
           - Javascript<br>
           - jQuery<br>
           - Bootstrap<br>
-          - Git & GitHub
+          - Git & GitHub<br>
           - Node.js<br>
           - Express Js<br>
         </p>`,
