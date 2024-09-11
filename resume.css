@@ -272,8 +272,8 @@ body {
   box-shadow: 0 5px 9px rgba(30, 255, 229, 0.507);
 }
 #skills {
-  font-size: 25px;
-  line-height: 35px;
+  font-size: 20px;
+  line-height: 30px;
   margin-right: 55px;
 }
 .resume-body {
@@ -285,8 +285,8 @@ body {
   left: 5px;
 }
 #experiences {
-  font-size: 25px;
-  line-height: 35px;
+  font-size: 20px;
+  line-height: 28px;
 }
 /*Responsive for Mobile*/
 @media (max-width: 768px) {

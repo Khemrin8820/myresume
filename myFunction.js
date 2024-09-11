@@ -41,10 +41,9 @@ const resumeList = {
           - Javascript<br>
           - jQuery<br>
           - Bootstrap<br>
-          - Git<br>
-          - GitHub<br>
+          - Git & GitHub
           - Node.js<br>
-          - Express Js
+          - Express Js<br>
         </p>`,
   experience: `<p id="experiences">
           <span>Call Center Metfone at Asia Master<br>
