@@ -132,13 +132,13 @@ body {
   font-family: "Inter", sans-serif;
   font-size: 45px;
   color: rgba(83, 190, 178, 1);
-  margin: 10px 0 0 100px;
+  margin: 10px 0 0 55px;
 }
 .grid-name .name-box p {
   color: rgba(83, 190, 178, 1);
   font-family: "Crete Round", serif;
   font-size: 25px;
-  margin: 0px 0 0 100px;
+  margin: 0px 0 0 55px;
 }
 
 /*Button Contact Section*/
@@ -154,7 +154,7 @@ body {
   border-radius: 50px;
   background-color: rgba(83, 190, 178, 1);
   border-style: none;
-  margin: 15px 0 0 215px;
+  margin: 15px 0 0 175px;
   cursor: pointer;
   transition: 300ms linear;
   opacity: 0.6;
